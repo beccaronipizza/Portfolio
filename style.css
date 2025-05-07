@@ -1,70 +1,30 @@
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f7f5; /* soft marshy background */
-    color: #2e3d30; /* dark mossy green for text */
-  }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #dceef2; /* sky grey-blue */
+  color: #333;
+}
 
-  header {
-    background-color: #d6e7d4; /* light green */
-    padding: 40px 20px;
-    text-align: center;
-    border-bottom: 4px solid #8ea88e; /* muted olive */
-  }
+header {
+  background: #6b8e23; /* salt marsh green */
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
 
-  header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #2e3d30;
-  }
+nav a {
+  margin: 0 12px;
+  color: #f2e9dc; /* dune beige */
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  header p {
-    font-size: 1.2em;
-    color: #4d6653;
-  }
-
-  nav {
-    background-color: #e0ede0;
-    text-align: center;
-    padding: 15px 10px;
-    border-bottom: 2px solid #c4d8c4;
-  }
-
-  nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #4c7c59; /* dark green */
-    font-weight: bold;
-  }
-
-  nav a:hover {
-    color: #2e3d30;
-    text-decoration: underline;
-  }
-
-  section {
-    padding: 30px 20px;
-    max-width: 900px;
-    margin: auto;
-    border-bottom: 1px solid #c4d8c4;
-    background-color: #ffffff;
-    border-radius: 8px;
-    margin-top: 20px;
-  }
-
-  h2 {
-    color: #4c7c59;
-  }
-
-  footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #666;
-    padding: 20px;
-    background-color: #d6e7d4;
-    margin-top: 40px;
-  }
-</style>
+main {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f2e9dc; /* dune beige */
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
