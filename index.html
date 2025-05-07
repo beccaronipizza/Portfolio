@@ -3,83 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+  <title>Rebecca (Becca) Morris | Environmental Scientist</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background: #dceef2; /* sky grey-blue */
+      color: #333;
     }
+
     header {
-      background-color: #0077cc;
+      background: #6b8e23; /* salt marsh green */
       color: white;
-      padding: 20px;
+      padding: 1.5rem;
       text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
-    nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      background-color: #005fa3;
-    }
+
     nav a {
-      color: white;
-      padding: 14px 20px;
+      margin: 0 12px;
+      color: #f2e9dc; /* dune beige */
       text-decoration: none;
-      display: inline-block;
-      white-space: nowrap;
+      font-weight: bold;
     }
-    nav a:hover {
-      background-color: #004080;
+
+    main {
+      max-width: 850px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #f2e9dc; /* dune beige */
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 50px;
+    }
+
     section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
+      margin-top: 30px;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
     }
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin-top: 10px;
-      background-color: #0077cc;
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: #6b8e23;
       color: white;
-      text-decoration: none;
+      border: none;
+      padding: 12px 20px;
+      margin-top: 10px;
+      font-size: 16px;
+      cursor: pointer;
       border-radius: 5px;
     }
-    .button:hover {
-      background-color: #005fa3;
+
+    button:hover {
+      background-color: #556b2f;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>My Portfolio</h1>
+    <h1>Rebecca (Becca) Morris</h1>
+    <p>Wetland & Estuarine Research | GIS | Environmental Monitoring</p>
   </header>
   <nav>
-    <a href="#about">About</a>
     <a href="#thesis">Thesis Project</a>
-    <a href="#gis">GIS & Maps</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a wetland scientist with a passion for data visualization, ecological restoration, and science communication. My experience includes field monitoring, GIS analysis, and public engagement. I'm driven to support climate resilience and community-focused conservation efforts.</p>
-  </section>
-  <section id="thesis">
-    <h2>Thesis Project</h2>
-    <p>My graduate thesis evaluated the effectiveness of nature-based shoreline stabilization techniques used to reduce lateral marsh edge erosion at the Sears Point Levee Adaptive Management Project in San Pablo Bay. Over the first three years post-restoration, I conducted monthly vegetation surveys and elevation monitoring to assess ecological and geomorphic responses. I presented my findings at CERF, the State of the Estuary Conference, and SERCAL.</p>
-    <a href="thesis_slide_deck.pdf" class="button" target="_blank">View Thesis Slide Deck</a>
-  </section>
-  <section id="gis">
-    <h2>GIS & Maps</h2>
-    <p>Here are examples of GIS maps and topographic surveys I’ve created as part of my work.</p>
-    <a href="maps_and_surveys.pdf" class="button" target="_blank">View Maps & Surveys</a>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>You can reach me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-  </section>
-</body>
-</h
+    <a href="#outreach">Outreach</a>
+    <a href="#vegetation">Vegetation Surveys</a>
+    <a href="#eelgrass">Eelgrass Monitoring</a>
+    <a href="#gis">GIS & Mapping</a>
+    <a href="#elevation">Elevation Monitoring</a>
+    <a href="#waterquality">Water Quality</a>
+    <a href="#analysis">Data
