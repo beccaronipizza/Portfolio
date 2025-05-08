@@ -2,16 +2,13 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0 1.5rem; /* Add horizontal padding */
   background: #dceef2; /* sky grey-blue */
   color: #333;
 }
 
-/* Centered layout wrapper */
-.container {
-  max-width: 960px;         /* limits how wide your site can stretch */
-  margin: 0 auto;           /* centers the container horizontally */
-  padding: 0 1.5rem;        /* adds spacing on the left and right */
+h1, h2, h3, h4, h5, h6 {
+  padding-left: 1.5rem;
 }
 
 /* Header */
@@ -32,11 +29,4 @@ nav {
 
 nav a {
   margin: 0 12px;
-  color: #f2e9dc;
-  text-decoration: none;
-}
-
-/* Main content spacing */
-main {
-  padding-top: 1.5rem;
-}
+  color: #f2e9dc
