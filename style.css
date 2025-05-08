@@ -7,6 +7,13 @@ body {
   color: #333;
 }
 
+/* Centered layout wrapper */
+.container {
+  max-width: 960px;         /* limits how wide your site can stretch */
+  margin: 0 auto;           /* centers the container horizontally */
+  padding: 0 1.5rem;        /* adds spacing on the left and right */
+}
+
 /* Header */
 header {
   background: #6b8e23; /* salt marsh green */
@@ -29,7 +36,7 @@ nav a {
   text-decoration: none;
 }
 
-/* ✅ Content wrapper for spacing */
-.content {
-  padding: 0 1.5rem;
+/* Main content spacing */
+main {
+  padding-top: 1.5rem;
 }
